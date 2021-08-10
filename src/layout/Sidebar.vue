@@ -25,7 +25,13 @@ import { defineComponent, ref, watch, computed, reactive } from 'vue'
 export default defineComponent({
   name: "Sidebar",
   setup() {
-    return {}
+    const handleOpen = () => {}
+    const handleClose = () => {}
+    return {
+      isCollapse: false,
+      handleOpen: handleOpen,
+      handleClose: handleClose
+    }
   }
 })
 </script>
